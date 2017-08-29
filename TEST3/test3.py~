@@ -1,0 +1,8 @@
+import sys
+
+raw_text = ""
+with open(sys.argv[1], "wb") as file:
+    raw_text = file.read()
+
+raw_text.split("\n")
+raw_text = raw_text[:len(raw_text)-1]
